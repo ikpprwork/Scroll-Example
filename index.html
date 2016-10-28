@@ -1,0 +1,38 @@
+<!doctype html>
+<!--[if lte IE 9]><html class="ie" lang="en"><script src="js/html5shiv.js"></script><![endif]-->
+<!--[if gt IE 9]><!--><html lang="en"><!--<![endif]-->
+<head>
+<title>Flip Carousel</title>
+<script src="jquery-1.8.1.min.js"></script>
+<script src="html5shiv.js"></script>
+<script src="flip-carousel.js"></script>
+<link href="foundation-icons.css" rel="stylesheet">
+<link href="flip-carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+<article title="item1"><h2>Ramesh</h2><span>Inampudi</span><div><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.0.901.901/11880326_964958000228524_5778700254256213492_n.jpg?oh=4763ca0a718ee5e0e5de8229da0a49d2&oe=5869F851&__gda__=1484115901_09edf16ed18dd90a1666f889f5537b95"></div></article>
+<article title="item2"><h2>Satish</h2><span>Inampudi</span><div><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t31.0-1/c288.66.828.828/p960x960/1008200_492984860791325_1649170402_o.jpg"></div></article>
+<article title="item3"><h2>Murthy</h2><span>IYLN</span><div><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/c0.0.899.899/13178733_1031749630206723_3214943300199250266_n.jpg?oh=f795abb650858069181d7ff768332ef6&oe=58A31F65&__gda__=1482698363_4bd24c233fd699b14f0f3bafd1199a88"></div></article>
+<article title="item4"><h2>Dhanalakshmi</h2><span>Inampudi</span><div><img src="https://fb-s-c-a.akamaihd.net/h-ak-xal1/v/t1.0-1/p50x50/13265924_10209385501217024_7058645511256448973_n.jpg?oh=f4bef76570c86370431f93c05e225a14&oe=5864B770&__gda__=1484016441_435308c9f50ad8825217dc6689402b8c"></div></article>
+<article title="item5"><h2>Radha</h2><span>Inampudi</span><div><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xft1/v/t1.0-1/p50x50/13612186_1042764465815254_2157345061632216031_n.jpg?oh=9f796eb89085f66625d6bf7e47fd9fab&oe=5877D8A4&__gda__=1483445459_38e8c397979ca92953d8050f232cef1e
+"></div></article>
+<article title="item6"><h2>Sarma</h2><span>Inampudi</span><div class="fi-calendar"></div></article>
+<article title="item7"><h2>Supreeta</h2><span>Abburi</span><div class="fi-comment-quotes"></div></article>
+<article title="item8"><h2>Aditya</h2><span>Kondiparti</span><div class="fi-die-five"></div></article>
+<article title="item9"><h2>Hemanth</h2><span>Kondiparti</span><div class="fi-dislike"></div></article>
+<article title="item10"><h2>Anusha</h2><span>Inampudi</span><div class="fi-foot"></div></article>
+<article title="item11"><h2>Gouthami</h2><span>(last)</span><div class="fi-trophy"></div></article>
+
+<script>
+	$('article').flipcarousel({
+		pagination : false,
+		loader : true,
+		itemsperpage: 3,
+		randomizer: 0.7
+	});
+</script>
+		
+</body>
+</html>	
